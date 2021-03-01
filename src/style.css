@@ -1,0 +1,46 @@
+:root {
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  font-size: 80%;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  display: none;
+  color: black;
+  border-radius: 0.2rem;
+  border-width: 0.1rem;
+  padding: 1rem;
+}
+
+main {
+  color: darkblue;
+  height: 50vh;
+}
+
+header:after {
+  content: attr(id);
+}
+
+* {
+  width: 70vw;
+  text-align: center;
+}
+
+header {
+  height: 10vh;
+}
+
+nav {
+  height: 20vh;
+}
+
+aside {
+  display: none;
+  height: 1rem;
+}
+
+button {
+  display: inline;
+}
